@@ -30,7 +30,9 @@ RegisterNetEvent("IPMC:HttpGet")
 
 AddEventHandler("IPMC:HttpGet",function(url)
 	PerformHttpRequest(url, function(err, text, headers)
-		print("Does actually work!")
 		print(text);
+		var = json.decode(text);
+		print(var);
+		-- send to IPMCDatabase
 	end, 'GET', '', {["Content-Type"] = 'application/json'})
 end)
