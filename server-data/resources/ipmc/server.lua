@@ -26,11 +26,11 @@
 --	return t
 --end
 
-RegisterNetEvent("httpGet")
+RegisterNetEvent("IPMC:HttpGet")
 
-AddEventHandler("httpGet",function(Source)
-	print("Something happening here")
-	PerformHttpRequest("http://google.com", function(err, text, headers)
+AddEventHandler("IPMC:HttpGet",function(url)
+	PerformHttpRequest(url, function(err, text, headers)
 		print("Does actually work!")
+		print(text);
 	end, 'GET', '', {["Content-Type"] = 'application/json'})
 end)
