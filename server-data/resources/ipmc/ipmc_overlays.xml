@@ -1,0 +1,106 @@
+<?xml  version="1.0" encoding="UTF-8"?>
+<PedDecorationCollection>
+  <bRequiredForSync value="true" />
+  <presets>
+    <!-- Del Perro Patch Male -->
+    <Item>
+      <uvPos x="0.236000" y="0.640000" />
+      <scale x="0.140000" y="0.140000" />
+      <rotation value="0.000000" />
+      <nameHash>ipmc_del_perro_M</nameHash>
+      <txdHash>ipmc_del_perro</txdHash>
+      <txtHash>ipmc_del_perro</txtHash>
+      <zone>ZONE_TORSO</zone>
+      <type>TYPE_BADGE</type>
+      <faction>FM</faction>
+      <garment>All</garment>
+      <gender>GENDER_MALE</gender>
+      <award />
+      <awardLevel />
+    </Item>
+    <!-- Paleto Bay Patch Male -->
+    <Item>
+      <uvPos x="0.236000" y="0.640000" />
+      <scale x="0.140000" y="0.140000" />
+      <rotation value="0.000000" />
+      <nameHash>ipmc_paleto_bay_M</nameHash>
+      <txdHash>ipmc_paleto_bay</txdHash>
+      <txtHash>ipmc_paleto_bay</txtHash>
+      <zone>ZONE_TORSO</zone>
+      <type>TYPE_BADGE</type>
+      <faction>FM</faction>
+      <garment>All</garment>
+      <gender>GENDER_MALE</gender>
+      <award />
+      <awardLevel />
+    </Item>
+    <!-- Rancho Patch Male -->
+    <Item>
+      <uvPos x="0.236000" y="0.640000" />
+      <scale x="0.140000" y="0.140000" />
+      <rotation value="0.000000" />
+      <nameHash>ipmc_rancho_M</nameHash>
+      <txdHash>ipmc_rancho</txdHash>
+      <txtHash>ipmc_rancho</txtHash>
+      <zone>ZONE_TORSO</zone>
+      <type>TYPE_BADGE</type>
+      <faction>FM</faction>
+      <garment>All</garment>
+      <gender>GENDER_MALE</gender>
+      <award />
+      <awardLevel />
+    </Item>
+    <!-- La Mesa Patch Male -->
+    <Item>
+      <uvPos x="0.236000" y="0.640000" />
+      <scale x="0.140000" y="0.140000" />
+      <rotation value="0.000000" />
+      <nameHash>ipmc_la_mesa_M</nameHash>
+      <txdHash>ipmc_la_mesa</txdHash>
+      <txtHash>ipmc_la_mesa</txtHash>
+      <zone>ZONE_TORSO</zone>
+      <type>TYPE_BADGE</type>
+      <faction>FM</faction>
+      <garment>All</garment>
+      <gender>GENDER_MALE</gender>
+      <award />
+      <awardLevel />
+    </Item>
+    <!-- National Patch Male -->
+    <Item>
+      <uvPos x="0.236000" y="0.640000" />
+      <scale x="0.140000" y="0.140000" />
+      <rotation value="0.000000" />
+      <nameHash>ipmc_national_M</nameHash>
+      <txdHash>ipmc_national</txdHash>
+      <txtHash>ipmc_national</txtHash>
+      <zone>ZONE_TORSO</zone>
+      <type>TYPE_BADGE</type>
+      <faction>FM</faction>
+      <garment>All</garment>
+      <gender>GENDER_MALE</gender>
+      <award />
+      <awardLevel />
+    </Item>
+  </presets>
+  <nameHash>ipmc_overlays</nameHash>
+  <medalLocations content="vector2_array">
+    0.140000	0.070000	
+    0.370000	0.070000	
+    0.600000	0.070000	
+    0.835000	0.070000	
+    0.140000	0.150000	
+    0.370000	0.150000	
+    0.600000	0.150000	
+    0.835000	0.150000	
+    0.140000	0.230000	
+    0.370000	0.230000	
+    0.600000	0.230000	
+    0.835000	0.230000	
+    0.100000	0.700000	
+    0.300000	0.700000	
+    0.500000	0.700000	
+    0.700000	0.700000	
+  </medalLocations>
+  <medalScale x="0.240000" y="0.100000" />
+</PedDecorationCollection>

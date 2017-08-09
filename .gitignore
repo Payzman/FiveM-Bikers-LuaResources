@@ -1,0 +1,17 @@
+*.exe
+Deprecated/
+server/
+server-data/.gitignore
+server-data/.vs/
+server-data/old-maps/
+server-data/resources/[gamemodes]/
+server-data/resources/[gamemodes]/race/race_server.lua
+server-data/resources/[gamemodes]/race/race_client.lua
+server-data/resources/[gamemodes]/race/__resource.lua
+server-data/resources/[gamemodes]/race-test/map.lua
+server-data/resources/[gamemodes]/race-test/__resource.lua
+TextureToolkit/ReadMe.txt
+TextureToolkit/RageLib.dll
+TextureToolkit/RageLib.GTA5.dll
+TextureToolkit/License.txt
+TextureToolkit/DirectXTex.dll
