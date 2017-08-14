@@ -26,27 +26,27 @@
 --	return t
 --end
 
-RegisterNetEvent("IPMC:HttpGet")
+RegisterNetEvent("Server:HttpGet")
 
-AddEventHandler("IPMC:HttpGet",function(url,reason)
+AddEventHandler("Server:HttpGet",function(url,reason)
 	PerformHttpRequest(url, function(err, text, headers)
 		--print(text);
 		var = json.decode(text);
 		--print(var);
 		-- send to IPMCDatabase
-		TriggerEvent("IPMC:HttpResponse",var,reason)
+		TriggerEvent("Server:HttpResponse",var,reason)
 	end, 'GET', '', {["Content-Type"] = 'application/json'})
 end)
 
-RegisterNetEvent("IPMC:HttpPut")
+RegisterNetEvent("Server:HttpPut")
 
-AddEventHandler("IPMC:HttpPut",function(url, data, reason)
+AddEventHandler("Server:HttpPut",function(url, data, reason)
 	encoded = json.encode(data);
 	PerformHttpRequest(url, function(err, text, headers)
 		--print(text);
 		var = json.decode(text);
 		--print(var);
 		-- send to IPMCDatabase
-		TriggerEvent("IPMC:HttpResponse",var,reason)
+		TriggerEvent("Server:HttpResponse",var,reason)
 	end, 'PUT', encoded, {["Content-Type"] = 'application/json'})
 end)
