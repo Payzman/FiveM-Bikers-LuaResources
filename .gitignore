@@ -15,3 +15,6 @@ TextureToolkit/RageLib.dll
 TextureToolkit/RageLib.GTA5.dll
 TextureToolkit/License.txt
 TextureToolkit/DirectXTex.dll
+server-data/resources/ipmc/IPMCServerScript.net.dll
+server-data/resources/ipmc/IPMCClientScript.net.dll
+*.zip

@@ -26,11 +26,27 @@
 --	return t
 --end
 
-RegisterNetEvent("httpGet")
+RegisterNetEvent("Server:HttpGet")
 
-AddEventHandler("httpGet",function(Source)
-	print("Something happening here")
-	PerformHttpRequest("http://google.com", function(err, text, headers)
-		print("Does actually work!")
+AddEventHandler("Server:HttpGet",function(url,reason)
+	PerformHttpRequest(url, function(err, text, headers)
+		--print(text);
+		var = json.decode(text);
+		--print(var);
+		-- send to IPMCDatabase
+		TriggerEvent("Server:HttpResponse",var,reason)
 	end, 'GET', '', {["Content-Type"] = 'application/json'})
+end)
+
+RegisterNetEvent("Server:HttpPut")
+
+AddEventHandler("Server:HttpPut",function(url, data, reason)
+	encoded = json.encode(data);
+	PerformHttpRequest(url, function(err, text, headers)
+		--print(text);
+		var = json.decode(text);
+		--print(var);
+		-- send to IPMCDatabase
+		TriggerEvent("Server:HttpResponse",var,reason)
+	end, 'PUT', encoded, {["Content-Type"] = 'application/json'})
 end)
