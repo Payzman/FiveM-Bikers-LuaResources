@@ -18,3 +18,4 @@ TextureToolkit/DirectXTex.dll
 server-data/resources/ipmc/IPMCServerScript.net.dll
 server-data/resources/ipmc/IPMCClientScript.net.dll
 *.zip
+server-data/resources/ipmc/stream/
