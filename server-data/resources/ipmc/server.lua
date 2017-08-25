@@ -50,3 +50,8 @@ AddEventHandler("Server:HttpPut",function(url, data, reason)
 		TriggerEvent("Server:HttpResponse",var,reason)
 	end, 'PUT', encoded, {["Content-Type"] = 'application/json'})
 end)
+
+-- This one should handle the same event as in hardcap just triggering another event on my C# script.
+AddEventHandler('hardcap:playerActivated', function()
+    TriggerEvent('Server:playerConnected')
+end)
