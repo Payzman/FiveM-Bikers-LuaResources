@@ -7,7 +7,6 @@ AddEventHandler('hardcap:playerActivated', function()
   if not list[source] then
     playerCount = playerCount + 1
     list[source] = true
-	print('Player connected... source = ' .. source)
   end
 end)
 
