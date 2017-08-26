@@ -54,5 +54,5 @@ end)
 -- This one should handle the same event as in hardcap just triggering another event on my C# script.
 RegisterNetEvent('hardcap:playerActivated')
 AddEventHandler('hardcap:playerActivated', function()
-    TriggerEvent('Server:playerConnected')
+    TriggerEvent('Server:playerConnected',source)
 end)
