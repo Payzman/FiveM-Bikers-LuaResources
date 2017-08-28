@@ -45,7 +45,7 @@ AddEventHandler("Server:HttpPut",function(url, data, reason)
 	PerformHttpRequest(url, function(err, text, headers)
 		--print(text);
 		var = json.decode(text);
-		--print(var);
+		print(var);
 		-- send to IPMCDatabase
 		TriggerEvent("Server:HttpResponse",var,reason)
 	end, 'PUT', encoded, {["Content-Type"] = 'application/json'})
