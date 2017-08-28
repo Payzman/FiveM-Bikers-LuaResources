@@ -41,7 +41,9 @@ end)
 RegisterNetEvent("Server:HttpPut")
 
 AddEventHandler("Server:HttpPut",function(url, data, reason)
+	print(data)
 	encoded = json.encode(data);
+	print(encoded)
 	PerformHttpRequest(url, function(err, text, headers)
 		print(text);
 		var = json.decode(text);
