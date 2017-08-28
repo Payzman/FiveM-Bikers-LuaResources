@@ -28,22 +28,24 @@
 
 RegisterNetEvent("Server:HttpGet")
 
-AddEventHandler("Server:HttpGet",function(url,reason)
+AddEventHandler("Server:HttpGet",function(url,reason,param)
 	PerformHttpRequest(url, function(err, text, headers)
 		--print(text);
 		var = json.decode(text);
 		--print(var);
 		-- send to IPMCDatabase
-		TriggerEvent("Server:HttpResponse",var,reason)
+		TriggerEvent("Server:HttpResponse",var,reason,param)
 	end, 'GET', '', {["Content-Type"] = 'application/json'})
 end)
 
 RegisterNetEvent("Server:HttpPut")
 
 AddEventHandler("Server:HttpPut",function(url, data, reason)
+	print(data)
 	encoded = json.encode(data);
+	print(encoded)
 	PerformHttpRequest(url, function(err, text, headers)
-		--print(text);
+		print(text);
 		var = json.decode(text);
 		--print(var);
 		-- send to IPMCDatabase
