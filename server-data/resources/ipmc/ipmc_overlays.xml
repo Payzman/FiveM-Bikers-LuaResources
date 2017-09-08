@@ -82,6 +82,22 @@
       <award />
       <awardLevel />
     </Item>
+    <!-- Boogeyman PVP Commendation -->
+    <Item>
+      <uvPos x="0.000000" y="0.000000" />
+      <scale x="1.000000" y="1.000000" />
+      <rotation value="0.000000" />
+      <nameHash>boogeyman_M</nameHash>
+      <txdHash>boogeyman</txdHash>
+      <txtHash>boogeyman</txtHash>
+      <zone>ZONE_TORSO</zone>
+      <type>TYPE_BADGE</type>
+      <faction>FM</faction>
+      <garment>All</garment>
+      <gender>GENDER_MALE</gender>
+      <award />
+      <awardLevel />
+    </Item>
   </presets>
   <nameHash>ipmc_overlays</nameHash>
   <medalLocations content="vector2_array">
