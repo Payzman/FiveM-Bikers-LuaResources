@@ -84,8 +84,8 @@
     </Item>
     <!-- Boogeyman PVP Commendation -->
     <Item>
-      <uvPos x="0.000000" y="0.000000" />
-      <scale x="1.000000" y="1.000000" />
+      <uvPos x="0.860000" y="0.735000" />
+      <scale x="0.055000" y="0.04900" />
       <rotation value="0.000000" />
       <nameHash>boogeyman_M</nameHash>
       <txdHash>boogeyman</txdHash>
