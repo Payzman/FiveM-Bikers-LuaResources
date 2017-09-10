@@ -2,6 +2,7 @@
 <PedDecorationCollection>
   <bRequiredForSync value="true" />
   <presets>
+  <!-- Colours -->
     <!-- Del Perro Patch Male -->
     <Item>
       <uvPos x="0.236000" y="0.640000" />
@@ -14,7 +15,7 @@
       <type>TYPE_BADGE</type>
       <faction>FM</faction>
       <garment>All</garment>
-      <gender>GENDER_MALE</gender>
+      <gender>GENDER_FEMALE</gender>
       <award />
       <awardLevel />
     </Item>
@@ -82,14 +83,79 @@
       <award />
       <awardLevel />
     </Item>
-    <!-- Boogeyman PVP Commendation -->
+  <!-- PVP Commendation -->
+    <!-- Boogeyman -->
     <Item>
-      <uvPos x="0.860000" y="0.735000" />
-      <scale x="0.055000" y="0.04900" />
+      <uvPos x="0.600000" y="0.600000" />
+      <scale x="0.050000" y="0.050000" />
       <rotation value="0.000000" />
       <nameHash>boogeyman_M</nameHash>
       <txdHash>boogeyman</txdHash>
       <txtHash>boogeyman</txtHash>
+      <zone>ZONE_TORSO</zone>
+      <type>TYPE_BADGE</type>
+      <faction>FM</faction>
+      <garment>All</garment>
+      <gender>GENDER_MALE</gender>
+      <award />
+      <awardLevel />
+    </Item>
+	<!-- Guardian -->
+    <Item>
+      <uvPos x="0.600000" y="0.550000" />
+      <scale x="0.050000" y="0.050000" />
+      <rotation value="0.000000" />
+      <nameHash>guardian_M</nameHash>
+      <txdHash>guardian</txdHash>
+      <txtHash>guardian</txtHash>
+      <zone>ZONE_TORSO</zone>
+      <type>TYPE_BADGE</type>
+      <faction>FM</faction>
+      <garment>All</garment>
+      <gender>GENDER_MALE</gender>
+      <award />
+      <awardLevel />
+    </Item>
+	<!-- Mayhem -->
+    <Item>
+      <uvPos x="0.600000" y="0.500000" />
+      <scale x="0.050000" y="0.050000" />
+      <rotation value="0.000000" />
+      <nameHash>mayhem_M</nameHash>
+      <txdHash>mayhem</txdHash>
+      <txtHash>mayhem</txtHash>
+      <zone>ZONE_TORSO</zone>
+      <type>TYPE_BADGE</type>
+      <faction>FM</faction>
+      <garment>All</garment>
+      <gender>GENDER_MALE</gender>
+      <award />
+      <awardLevel />
+    </Item>
+	<!-- Prisoner of War -->
+    <Item>
+      <uvPos x="0.600000" y="0.450000" />
+      <scale x="0.050000" y="0.050000" />
+      <rotation value="0.000000" />
+      <nameHash>pow_M</nameHash>
+      <txdHash>pow</txdHash>
+      <txtHash>pow</txtHash>
+      <zone>ZONE_TORSO</zone>
+      <type>TYPE_BADGE</type>
+      <faction>FM</faction>
+      <garment>All</garment>
+      <gender>GENDER_MALE</gender>
+      <award />
+      <awardLevel />
+    </Item>
+	<!-- Valor -->
+    <Item>
+      <uvPos x="0.600000" y="0.400000" />
+      <scale x="0.050000" y="0.050000" />
+      <rotation value="0.000000" />
+      <nameHash>valor_M</nameHash>
+      <txdHash>valor</txdHash>
+      <txtHash>valor</txtHash>
       <zone>ZONE_TORSO</zone>
       <type>TYPE_BADGE</type>
       <faction>FM</faction>

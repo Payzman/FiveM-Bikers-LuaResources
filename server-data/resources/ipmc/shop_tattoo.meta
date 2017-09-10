@@ -1,6 +1,8 @@
 <?xml  version="1.0" encoding="UTF-8"?>
 <TattooShopItemArray>
   <TattooShopItems>
+  <!-- Colours -->
+    <!-- Del Perro Patch -->
     <Item>
       <id value="0" />
       <cost value="0" />
@@ -12,6 +14,7 @@
       <eFaction>TATTOO_MP_FM</eFaction>
       <lockHash />
     </Item>
+    <!-- Paleto Bay Patch -->
     <Item>
       <id value="0" />
       <cost value="0" />
@@ -23,6 +26,7 @@
       <eFaction>TATTOO_MP_FM</eFaction>
       <lockHash />
     </Item>
+    <!-- Rancho Patch -->
     <Item>
       <id value="0" />
       <cost value="0" />
@@ -34,6 +38,7 @@
       <eFaction>TATTOO_MP_FM</eFaction>
       <lockHash />
     </Item>
+    <!-- La Mesa Patch -->
     <Item>
       <id value="0" />
       <cost value="0" />
@@ -45,6 +50,7 @@
       <eFaction>TATTOO_MP_FM</eFaction>
       <lockHash />
     </Item>
+    <!-- National Patch -->
     <Item>
       <id value="0" />
       <cost value="0" />
@@ -56,12 +62,58 @@
       <eFaction>TATTOO_MP_FM</eFaction>
       <lockHash />
     </Item>
+  <!-- PVP Commendation -->
+    <!-- Boogeyman -->
     <Item>
       <id value="0" />
       <cost value="0" />
       <textLabel/>
       <collection>ipmc_overlays</collection>
       <preset>boogeyman</preset>
+      <zone>ZONE_TORSO</zone>
+      <updateGroup>torsoDecal</updateGroup>
+      <eFaction>TATTOO_MP_FM</eFaction>
+      <lockHash />
+	<!-- Guardian -->
+    <Item>
+      <id value="0" />
+      <cost value="0" />
+      <textLabel/>
+      <collection>ipmc_overlays</collection>
+      <preset>guardian</preset>
+      <zone>ZONE_TORSO</zone>
+      <updateGroup>torsoDecal</updateGroup>
+      <eFaction>TATTOO_MP_FM</eFaction>
+      <lockHash />
+	<!-- Mayhem -->
+    <Item>
+      <id value="0" />
+      <cost value="0" />
+      <textLabel/>
+      <collection>ipmc_overlays</collection>
+      <preset>mayhem</preset>
+      <zone>ZONE_TORSO</zone>
+      <updateGroup>torsoDecal</updateGroup>
+      <eFaction>TATTOO_MP_FM</eFaction>
+      <lockHash />
+	<!-- Prisoner of War -->
+    <Item>
+      <id value="0" />
+      <cost value="0" />
+      <textLabel/>
+      <collection>ipmc_overlays</collection>
+      <preset>pow</preset>
+      <zone>ZONE_TORSO</zone>
+      <updateGroup>torsoDecal</updateGroup>
+      <eFaction>TATTOO_MP_FM</eFaction>
+      <lockHash />
+	<!-- Valor -->
+    <Item>
+      <id value="0" />
+      <cost value="0" />
+      <textLabel/>
+      <collection>ipmc_overlays</collection>
+      <preset>valor</preset>
       <zone>ZONE_TORSO</zone>
       <updateGroup>torsoDecal</updateGroup>
       <eFaction>TATTOO_MP_FM</eFaction>
