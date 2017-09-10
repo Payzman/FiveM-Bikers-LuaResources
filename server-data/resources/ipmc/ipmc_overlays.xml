@@ -15,7 +15,7 @@
       <type>TYPE_BADGE</type>
       <faction>FM</faction>
       <garment>All</garment>
-      <gender>GENDER_MALE</gender>
+      <gender>GENDER_FEMALE</gender>
       <award />
       <awardLevel />
     </Item>
