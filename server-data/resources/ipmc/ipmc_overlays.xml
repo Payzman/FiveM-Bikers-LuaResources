@@ -116,6 +116,22 @@
       <award />
       <awardLevel />
     </Item>
+	<!-- Mayhem -->
+    <Item>
+      <uvPos x="0.600000" y="0.500000" />
+      <scale x="0.050000" y="0.050000" />
+      <rotation value="0.000000" />
+      <nameHash>mayhem_M</nameHash>
+      <txdHash>mayhem</txdHash>
+      <txtHash>mayhem</txtHash>
+      <zone>ZONE_TORSO</zone>
+      <type>TYPE_BADGE</type>
+      <faction>FM</faction>
+      <garment>All</garment>
+      <gender>GENDER_MALE</gender>
+      <award />
+      <awardLevel />
+    </Item>
   </presets>
   <nameHash>ipmc_overlays</nameHash>
   <medalLocations content="vector2_array">
