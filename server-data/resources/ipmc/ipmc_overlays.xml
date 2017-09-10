@@ -148,6 +148,22 @@
       <award />
       <awardLevel />
     </Item>
+	<!-- Valor -->
+    <Item>
+      <uvPos x="0.600000" y="0.400000" />
+      <scale x="0.050000" y="0.050000" />
+      <rotation value="0.000000" />
+      <nameHash>valor_M</nameHash>
+      <txdHash>valor</txdHash>
+      <txtHash>valor</txtHash>
+      <zone>ZONE_TORSO</zone>
+      <type>TYPE_BADGE</type>
+      <faction>FM</faction>
+      <garment>All</garment>
+      <gender>GENDER_MALE</gender>
+      <award />
+      <awardLevel />
+    </Item>
   </presets>
   <nameHash>ipmc_overlays</nameHash>
   <medalLocations content="vector2_array">
