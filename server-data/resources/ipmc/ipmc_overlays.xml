@@ -2,6 +2,7 @@
 <PedDecorationCollection>
   <bRequiredForSync value="true" />
   <presets>
+  <!-- Colours -->
     <!-- Del Perro Patch Male -->
     <Item>
       <uvPos x="0.236000" y="0.640000" />
@@ -82,7 +83,8 @@
       <award />
       <awardLevel />
     </Item>
-    <!-- Boogeyman PVP Commendation -->
+  <!-- PVP Commendation -->
+    <!-- Boogeyman -->
     <Item>
       <uvPos x="0.600000" y="0.600000" />
       <scale x="0.050000" y="0.050000" />
@@ -90,6 +92,22 @@
       <nameHash>boogeyman_M</nameHash>
       <txdHash>boogeyman</txdHash>
       <txtHash>boogeyman</txtHash>
+      <zone>ZONE_TORSO</zone>
+      <type>TYPE_BADGE</type>
+      <faction>FM</faction>
+      <garment>All</garment>
+      <gender>GENDER_MALE</gender>
+      <award />
+      <awardLevel />
+    </Item>
+	<!-- Guardian -->
+    <Item>
+      <uvPos x="0.600000" y="0.550000" />
+      <scale x="0.050000" y="0.050000" />
+      <rotation value="0.000000" />
+      <nameHash>guardian_M</nameHash>
+      <txdHash>guardian</txdHash>
+      <txtHash>guardian</txtHash>
       <zone>ZONE_TORSO</zone>
       <type>TYPE_BADGE</type>
       <faction>FM</faction>
